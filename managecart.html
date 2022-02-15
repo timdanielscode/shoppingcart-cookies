@@ -1,0 +1,85 @@
+<!-- Tim Daniels 97044742 -->
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<title>managecart</title>
+		<script src="cookiefuncties.js"></script>
+		<script src="shoppingcart.js"></script>
+		<style>
+		table {
+			width: 100%;
+			border-style: solid;
+			text-align: center;
+			}
+			th {
+				background-color: #CCCCCC;
+				}
+			td {
+				width: 12.5%;
+				font-weight: bold;
+				text-align: center;
+				}
+			input {
+				background-color: bisque;
+				}
+					
+			form{
+				width: 50%;
+				text-align: left;
+			}
+					
+			input {
+				border: solid 1px rgb(0, 0, 0);
+				margin: 5px;
+				padding: 5px 0px 5px 0px;
+				width: 50%;
+				text-align: center;
+				font-size: 1em;
+				border-radius: 5px;
+			}
+			img {
+				width: 30px;
+				}
+		</style>
+	</head>
+	<body> 
+		<p> Overzicht van uw shoppingcart:</p>
+		<form	action="mailto: webshop@xxlcomputers.nl"
+				enctype="text/plain"
+				onsubmit="return checkForm(this);"
+				method="post">
+			<table>
+				<tr>
+					<th> ID </th>
+					<th> Merk </th>
+					<th> Model </th>
+					<th> Geheugen </th>
+					<th> Prijs </th>
+					<th> Aantal </th>
+					<th> Bedrag </th>
+					<th> Delete </th>
+				</tr>
+				<!-- cartWeergeven oproepen -->
+				<script>
+					cartWeergeven();
+				</script>
+			</table>
+			<br><br>
+			<input type="text" name="klantnaam" placeholder="Klantnaam:">
+			<input type="text" name="achternaam" placeholder="Achternaam:">
+			<input type="text" name="straat" placeholder="Straat:">
+			<input type="text" name="nummer" placeholder="Nummer:">
+			<input type="text" name="postcode" placeholder="Postcode:">
+			<input type="text" name="plaats" placeholder="Plaats:">
+			<input type="text" name="e-mail" placeholder="E-mail:">
+			<br><br>
+			<a id="link" href="xxlcomputers.html">&nbsp; &lt;&lt; &nbsp; Terug </a>
+			<br>
+			<a id="link" href="javascript:verwijderAlleCookies()">Leeg maken</a> 
+			<br><br>
+			<input type="button" value="checkout" placeholder="Check Out" onclick="">
+			<br><br>
+		</form>
+	</body>
+</html>

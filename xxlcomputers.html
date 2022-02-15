@@ -1,0 +1,103 @@
+<!-- Tim Daniels 97044742 -->
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<title>XXL-Computers</title>
+		<script src="cookiefuncties.js"></script>
+		<script src="shoppingcart.js"></script>
+	</head>
+	<body>
+		<img src="images/toshiba.jpg" width=150 alt=" ">
+		<p>	Toshiba Satellite A100 <br>
+			Prijs: 999.99 <br>
+			Geheugen: 8GB</p>
+		<form 	name="orderform"
+				action="managecart.html"
+				method="get"
+				onsubmit="bestellen(this);">
+			Aantal:
+			<input type="text" size="2" id="aantal" value="1">
+			<input type="image" src="images/winkelwagen.jpg" width=50>
+			<input type="hidden" id="id" value=1>
+			<input type="hidden" id="merk" value="Toshiba">
+			<input type="hidden" id="model" value="Satellite">
+			<input type="hidden" id="geheugen" value="8GB">
+			<input type="hidden" id="prijs" value=999.99>
+		</form>
+		<hr>
+		<img src="images/acer.jpg" alt=" " width=150>
+		<p>	Acer Aspire<br>
+			Prijs:  529.00 <br>
+			Geheugen: 4GB </p>
+		<form	name="orderform"
+				action="managecart.html"
+				method="get"
+				onsubmit="bestellen(this);">
+			Aantal:
+			<input type="text" size="2" id="aantal" value="1">
+			<input type="image" src="images/winkelwagen.jpg" width=50>
+			<input type="hidden" id="id" value=2>
+			<input type="hidden" id="merk" value="Acer">
+			<input type="hidden" id="model" value="Aspire">
+			<input type="hidden" id="geheugen" value="4GB">
+			<input type="hidden" id="prijs" value=529.00>
+		</form>
+		<hr>
+		<img src="images/medion.jpg" alt=" " width=150>
+		<p> Medion AKOYA<br>
+			Prijs: 567.49 <br>
+			Geheugen: 8GB </p>
+		<form	name="orderform"
+				action="managecart.html"
+				method="get"
+				onsubmit="bestellen(this);">
+			Aantal:
+			<input type="text" size="2" id="aantal" value="1">
+			<input type="image" src="images/winkelwagen.jpg" width=50>
+			<input type="hidden" id="id" value=3>
+			<input type="hidden" id="merk" value="Medion">
+			<input type="hidden" id="model" value="Akoya">
+			<input type="hidden" id="geheugen" value="8GB">
+			<input type="hidden" id="prijs" value=567.49>
+		</form>
+		<hr>
+		<img src="images/hp.jpg" alt=" " width=150>
+		<p>	HP 15 Pavilion Power <br>
+			Prijs: 849.15 <br>
+			Geheugen: 4GB </p>
+		<form	name="orderform"
+				action="managecart.html"
+				method="get"
+				onsubmit="bestellen(this);">
+			Aantal:
+			<input type="text" size="2" id="aantal" value="1">
+			<input type="image" src="images/winkelwagen.jpg" width=50>
+			<input type="hidden" id="id" value=4>
+			<input type="hidden" id="merk" value="HP">
+			<input type="hidden" id="model" value="Pavilion Power">
+			<input type="hidden" id="geheugen" value="4GB">
+			<input type="hidden" id="prijs" value=849.15>
+			
+		</form>
+		<hr>
+		<img src="images/lenovo.jpg" alt=" " width=150>
+		<p> Lenovo IdeaPad<br>
+			Prijs: 549.00 <br>
+			Geheugen: 8GB  </p>
+		<form	name="orderform"
+				action="managecart.html"
+				method="get"
+				onsubmit="bestellen(this);">
+			Aantal:
+			<input type="text" size="2" id="aantal" value="1">
+			<input type="image" src="images/winkelwagen.jpg" width=50>
+			<input type="hidden" id="id" value=5>
+			<input type="hidden" id="merk" value="Lenovo">
+			<input type="hidden" id="model" value="IdeaPad">
+			<input type="hidden" id="geheugen" value="8GB">
+			<input type="hidden" id="prijs" value=549.00>
+		</form>
+		<hr>
+	</body>
+</html>
