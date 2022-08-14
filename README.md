@@ -1,2 +1,2 @@
 # shoppingcart-cookies
-Shoppingcart based on cookies
+School project 2018 : Shoppingcart based on cookies
